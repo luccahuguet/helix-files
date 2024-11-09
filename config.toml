@@ -43,8 +43,39 @@ separator = "│"
 
 [editor.indent-guides]
 render = true
-skip-levels = 1
-# character = "┆"
+# skip-levels = 1
+# character = "▏"
+# character = "︳"
+# character = "|"
+# character = "︙"
+# character = "︴"
+# character = "︲"
+# character = "￬"
+# character = "𐄌"
+# character = "𐄛"
+# character = "𐆌"
+# character = "ￜ"
+# character = "𐊑"
+# character = "𐌙"
+# character = "𐌡"
+# character = "𐎂"
+# character = "𐡭"
+# character = "𐢎"
+# character = "𐢨"
+# character = "𐤦"
+# character = "𐩖"
+# character = "𐪟"
+# character = "𐩿"
+# character = "𐩯"
+# character = "𐭘"
+# character = "𑀈"
+# character = "𑗔"
+# character = "𑗊"
+# character = "𑗗"
+# character = "»"
+# character = "ǂ"
+# character = "ʃ"
+# character = "⸽"
 
 [editor.soft-wrap]
 enable = true
