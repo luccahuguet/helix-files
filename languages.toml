@@ -11,8 +11,15 @@ typeCheckingMode = "basic"
 # typeCheckingMode = "standard"
 # typeCheckingMode = "strict"
 
+
+[[language]]
+name = "markdown"
+language-servers = ["markdown-oxide"]
+auto-format = true
+
 [language-server.markdown-oxide]
 markdown-oxide = { command = "markdown-oxide" }
+
 
 [[language]]
 name = "toml"
@@ -40,6 +47,7 @@ auto-format = true
 command = "vscode-css-language-server"
 args = ["--stdio"]
 
+
 [[language]]
 name = "html"
 scope = "text.html"
@@ -50,6 +58,7 @@ auto-format = true
 [language-server.vscode-html-language-server]
 command = "vscode-html-language-server"
 args = ["--stdio"]
+
 
 [[language]]
 name = "json"
