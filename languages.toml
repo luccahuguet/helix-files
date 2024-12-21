@@ -78,7 +78,10 @@ name = "svelte"
 file-types = ["svelte"]
 auto-format = true
 comment-tokens = ["//"]
-block-comment-tokens = ["<!--", "-->"]
+block-comment-tokens = [
+  { start = "<!--", end = "-->" },
+  { start = "/*", end = "*/" },
+]
 language-servers = ["svelte-language-server"]
 
 
