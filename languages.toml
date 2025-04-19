@@ -63,9 +63,10 @@ args = ["--stdio"]
 [[language]]
 name = "json"
 scope = "source.json"
-file-types = ["json"]
+file-types = ["json", "jsonc"]
 language-servers = ["vscode-json-language-server"]
 auto-format = true
+formatter = { command = "deno", args = ["fmt", "--ext", "json", "-"] }
 
 [language-server.vscode-json-language-server]
 command = "vscode-json-language-server"

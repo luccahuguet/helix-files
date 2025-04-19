@@ -1,4 +1,4 @@
-theme = "doom_acario_dark"
+theme = "ao"
 
 [editor]
 cursorline = true
@@ -38,34 +38,12 @@ render = true
 # character = "︴"
 # character = "︲"
 # character = "￬"
-# character = "𐄌"
-# character = "𐄛"
-# character = "𐆌"
-# character = "ￜ"
-# character = "𐊑"
-# character = "𐌙"
-# character = "𐌡"
-# character = "𐎂"
-# character = "𐡭"
-# character = "𐢎"
-# character = "𐢨"
-# character = "𐤦"
-# character = "𐩖"
-# character = "𐪟"
-# character = "𐩿"
-# character = "𐩯"
-# character = "𐭘"
-# character = "𑀈"
-# character = "𑗔"
-# character = "𑗊"
-# character = "𑗗"
-# character = "»"
-# character = "ǂ"
-# character = "ʃ"
-# character = "⸽"
 
 [editor.soft-wrap]
 enable = true
 
 [editor.inline-diagnostics]
 cursor-line = "warning" # show warnings and errors on the cursorline inline
+
+[keys.normal]
+A-y = ":sh nu ~/.config/yazelix/nushell/reveal_in_yazi.nu \"%{buffer_name}\""
